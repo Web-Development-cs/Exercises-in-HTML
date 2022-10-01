@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Form</title>
+    </head>
+<style>
+    body{
+        text-align: center;
+    }
+    h2{
+        color: blueviolet;
+    }
+    #idja{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: beige;
+        color:black;
+    }
+</style>
+<body>
+    <h2>Formularet ne HTML</h2>
+    <form>
+      <p><label> emridhembiemri : <input type="text"/></label></p>
+      <p><label> fjalekalimi : <input type="password"/></label></p>
+
+      <p style="font-size: 20px; color:brown">Gjinia:
+        <label>Male<input type="radio" name="gender" value="male"/></label>
+        <label>Female<input type="radio" name="gender" value="female"/></label>
+    </p>
+
+    <ul><input type="checkbox" name="language" value="german"/>Spanish</ul>
+    <ul><input type="checkbox" name="language" value="german"/>Italian</ul>
+
+
+    <ul style="list-style-type: none;">Gjuhët e huaja
+        <li><input type="checkbox" name="language" value="german"/>German</li>
+        <li><input type="checkbox" name="language" value="english"/>English</li>
+        <li><input type="checkbox" name="language" value="french"/>French</li>
+    </ul>
+    
+    <select name="nationality">Zgjidh nacionalitetin:
+        <option value="italian">Italian</option>
+        <option value="kosovan">Kosovan</option>
+        <option value="italian">Albanian</option>
+        <option value="kosovan">German</option>
+    </select>
+
+    <p>Welcome Message</p>
+    <textarea name="teksti" rows="4" cols="40">
+        Probit Academy is an academy for programming languages from age 8 to 16,
+        also professional 16+.
+    </textarea>
+
+    <p><button type="submit" id="idja">Submit</button></p>
+    </form>
+</body>
+</html>

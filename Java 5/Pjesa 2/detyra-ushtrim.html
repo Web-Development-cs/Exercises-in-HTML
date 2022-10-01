@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Forma ne HTML</title>
+    </head>
+
+<style>
+    body{
+        background-color: rgb(223, 191, 253);
+    }
+    /* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: rgb(250, 227, 227);
+			width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px rgba(0, 0, 0, 0.5);  /* 10px*/
+		}
+    /* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+	/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+        
+</style>
+
+<body>
+    <h1 style="text-align: center;">Web Development-cs Organization Survey Form</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="age"
+				placeholder="Enter your age" />
+		</div>
+
+</div>
+</body>
+</html>
