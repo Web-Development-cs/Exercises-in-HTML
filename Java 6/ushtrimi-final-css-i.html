@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Forma ne HTML</title>
+    </head>
+    
+<style>
+ /* Styling the Form (Color, Padding, Shadow)
+  Shtoni formes nje ngjyre prapavijes, gjeresine, margjinen(dy-parametershe me auto),
+  poashtu padding me dy parametra, dhe nje shadow me tri dimensione dhe ngjyren rgba me 
+  efektin alpha */
+form{
+	background-color: rgb(68, 133, 133);
+	width: 200px;
+	margin: 50px auto;
+	padding: 10px 15px;
+	box-shadow: 10px 10px rgba(168, 210, 168, 0.5);
+}
+
+
+ /* Styling div-s 
+  Vendosni tekstin ne te majte dhe margjine per bottom*/
+  .form-control{
+	text-align: left;
+	margin-bottom: 50px;
+  }
+
+  /* Styling Div Label 
+  Duhet te shfaqet si block jo si in-line, dhe vendosni dhe margjine per bottom*/
+  #label-name{
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 10px;
+
+  }
+
+    </style>
+<body>
+    <h1 style="text-align: center;">Web Development-cs Organization Survey Form</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">Full Name</label>
+
+			<!-- Input Type Text -->
+			<input type="text" id="name" placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="password" id="label-password">Password</label>
+
+			<!-- Input Type Email-->
+			<input type="password" id="email" placeholder="Enter your password" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">Email</label>
+
+			<!-- Input Type Text -->
+			<input type="email" id="age" placeholder="Enter your email" />
+		</div>
+
+    </form>
+
+</div>
+</body>
+</html>
