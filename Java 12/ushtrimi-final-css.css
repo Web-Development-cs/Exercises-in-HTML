@@ -1,0 +1,24 @@
+body{
+
+}
+nav{
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 2px;
+}
+
+ul li{
+    float: right;
+    padding: 10px;
+}
+ul li:hover{
+    background-color: rgb(217, 217, 247);
+}
+
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(151, 37, 37);
+}

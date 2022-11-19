@@ -1,0 +1,17 @@
+
+ul li{   
+    float: right;
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+}
+ul li :hover{
+    color: #3bafbe;
+}
+li a {
+    text-decoration: none;
+    color: #3bafbe;
+    font-size: 14px;
+}
+
+
