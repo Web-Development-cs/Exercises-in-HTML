@@ -1,0 +1,137 @@
+
+body{
+    
+	font-family: "Georgia";
+    font-size: 12px;
+}
+a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+i{
+	height: 25px;
+	width: 20px;
+	color: white;
+} 
+   p{
+	  display: inline;
+  }
+  /* icons orange from black
+   i:hover { color: orange;
+  }
+ */
+ form{margin-top: 25px;}
+#circle1{
+     background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+#circle1:hover{ background: orange;}
+  
+#circle2{
+  background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+#circle2:hover{ background: orange;}
+
+#circle3{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+#circle3:hover{ background: orange;}
+
+#circle4{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+#circle4:hover{ background: orange;}
+
+#circle5{
+	 background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+#circle5:hover{ background: orange;}
+
+::placeholder {
+        
+        color: white;
+    }
+#search {
+  border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  color: white;
+  float: right;
+  margin-left: 3px;
+  border: 0;
+}
+
+
+  input{		
+	    border-radius: 10px;
+            background: #333333;
+            padding: 10px;
+            width: 200px;
+            height: 12px;
+            text-decoration: none;
+			font-family: Georgia;
+			font-size: 12px;
+            color: white;
+            float: right;
+			 
+}
+
+
+ 
