@@ -1,0 +1,17 @@
+#main {
+    height: 200px;
+    background-color: white;
+    background-image: linear-gradient(to right, white, green);
+}
+
+.gfg {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.geeks {
+    font-size: 17px;
+    text-align: center;
+}
