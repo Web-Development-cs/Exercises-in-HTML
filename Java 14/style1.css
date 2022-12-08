@@ -1,0 +1,10 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: black;
+    text-shadow: 1px 2px 3px rgb(94, 14, 14);
+}
+p{
+    font-weight: bold;
+}
