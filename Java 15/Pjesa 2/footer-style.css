@@ -1,0 +1,45 @@
+body{
+
+	font-family: "Georgia";
+    font-size: 12px;
+}
+
+#n {
+	font-family: "Georgia";
+    font-size: 12px;
+	background-color: #1a1a1a;
+    color: white;
+}
+.a1 {
+    color: #3bafbe;
+}
+#p2 { 
+    float: left; 
+}
+
+#f{   
+    background: #2c2c2c;
+	border:0px;
+	margin-bottom: 10px;
+}
+#f::placeholder {
+    color:#989898;
+}
+#ss {
+    border-radius: 10px;
+   background: #3bafbe;
+   padding: 10px;
+   width: 70px;
+   height: 35px;
+   text-decoration: none;
+   color: white;
+   float: left;
+ }
+footer{
+    margin-top:40px;
+	height: 60px;
+	background-color: #1a1a1a;
+    color: #1a1a1a;
+	position: left;
+	height: 50px;
+}

@@ -1,0 +1,195 @@
+body{
+    
+	font-family: "Georgia";
+    font-size: 12px;
+}
+a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+i{
+	height: 25px;
+	width: 20px;
+	color: rgb(0, 0, 0);
+} 
+   p{
+	  display: inline;
+  }
+  /* icons orange from black
+   i:hover { color: orange;
+  }
+ */
+ form{margin-top: 25px;}
+#circle1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    border: 3px solid rgb(0, 0, 0);
+}
+#circle1:hover{ background: orange;}
+  
+#circle2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    border: 3px solid rgb(0, 0, 0);
+}
+#circle2:hover{ background: orange;}
+
+#circle3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    border: 3px solid rgb(0, 0, 0);
+}
+#circle3:hover{ background: orange;}
+
+#circle4{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+#circle4:hover{ background: orange;}
+
+#circle5{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
+#circle5:hover{ background: orange;}
+
+::placeholder {
+        
+        color: black;
+    }
+#search {
+  border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 95px;
+  height: 37px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  float: right;
+  margin-left: 3px;
+  border: 3px solid rgb(0, 0, 0);
+
+}
+
+  input{		
+	        border-radius: 10px;
+            padding: 10px;
+            width: 200px;
+            height: 12px;
+            text-decoration: none;
+			font-family: Georgia;
+			font-size: 12px;
+            color: black;
+            float: right;
+            border: 3px solid rgb(0, 0, 0)
+			 
+}
+/*
+.ballina{
+    background-color: #ffffff;
+   /* background-image: -webkit-linear-gradient(to right, rgb(242, 164, 249),rgb(104, 218, 220), rgb(3, 186, 150));
+
+   border: 3px solid black;
+   /*display: inline-block;*/
+ /*  float: left;
+}
+*/
+#c1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(rgb(242, 164, 249),rgb(200, 165, 243), rgb(3, 186, 150));
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#c2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(rgb(227, 145, 235),rgb(186, 230, 248), rgb(3, 186, 150));
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
+#c3{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(rgb(242, 164, 249),rgb(200, 165, 243), rgb(3, 186, 150));
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#c4{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(rgb(227, 145, 235),rgb(186, 230, 248), rgb(3, 186, 150));
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
